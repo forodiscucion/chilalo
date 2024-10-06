@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Menú de Bebidas - Licorería CHILALO SHOT</title>
+</head>
+
+<body>
+    <header class="nav-container">
+        <div class="logo">
+            <h1>CHILALO SHOT</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos">
+            <i class='bx bx-search'></i>
+        </div>
+        <div class="category-menu">
+            <button class="category-btn">Categorías</button>
+            <div class="category-dropdown">
+                <a href="#">Cervezas</a>
+                <a href="#">Vinos</a>
+                <a href="#">Licores</a>
+                <a href="#">Aperitivos</a>
+            </div>
+        </div>
+        <div id="cart-icon" class="cart-icon">
+            <i class='bx bx-cart'></i>
+        </div>
+    </header>
+
+    <div class="product-list">
+        <h2>Productos</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="img/cerveza.jpg" alt="Cerveza">
+                <h3>Cerveza Pilsen</h3>
+                <p>500 ml</p>
+                <p>S/. 8.00</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="img/vino.jpg" alt="Vino">
+                <h3>Vino Tinto</h3>
+                <p>750 ml</p>
+                <p>S/. 30.00</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="img/licor.jpg" alt="Licor">
+                <h3>Licor de Frutas</h3>
+                <p>700 ml</p>
+                <p>S/. 25.00</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="img/SMIRNOFF RED.jpg" alt="SMIRNOFF RED">
+                <h3>SMIRNOFF RED</h3>
+                <p>700 ml</p>
+                <p>S/. 65.80</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
